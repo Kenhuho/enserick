@@ -1,0 +1,131 @@
+.MB5,
+.MB5 * {
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+.MB5 {
+  width: 520px;
+  margin: auto;
+  background: url(https://zupimages.net/up/19/37/mdy6.jpg) #111;
+  font: 10px Merriweather;
+  color: #999;
+  position: relative;
+  padding: 50px 0;
+  min-height: 500px;
+}
+.imMB5 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 350px;
+  background-position: center;
+  background-size: cover;
+  mask-image: url(https://i.imgur.com/4xh7DyF.png);
+  mask-position: center right;
+  -webkit-mask-image: url(https://i.imgur.com/4xh7DyF.png);
+  -webkit-mask-position: center right;
+  mask-size: 500px auto;
+}
+.MB5:hover .imMB5 {
+  width: 200px;
+}
+.nnMB5 {
+  position: absolute;
+  width: 240px;
+  text-align: center;
+  padding: 50px 0;
+  bottom: 20px;
+  right: -20px;
+  font: 15px/15px IM Fell English SC;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: 1px 1px 2px #000;
+  box-shadow: 6px 15px 5px -9px #000, inset 0 0 100px #000;
+}
+.MB5:hover .nnMB5 {
+  width: 390px;
+}
+.nnMB5 b {
+  display: block;
+  font-size: 20px;
+}
+.leMB5 {
+  margin: 0 0 120px 270px;
+  position: relative;
+}
+.MB5:hover .leMB5 {
+  margin: 0 0 120px 120px;
+}
+.ttMB5 {
+  padding: 20px 0;
+  font: 30px IM Fell English SC;
+  color: #c3aa3e;
+  text-shadow: 1px 1px 2px #000;
+  position: relative;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.ttMB5::after {
+  content: "";
+  width: 50px;
+  border-top: 2px solid;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.subMB5 {
+  font: 17px IM Fell English SC;
+  text-shadow: 1px 1px 2px #000;
+  color: #fff;
+  margin-left: 20px;
+}
+.txMB5 {
+  background: #1119;
+  height: 170px;
+  margin: 5px -20px 20px 50px;
+  padding: 20px;
+  overflow: auto;
+  opacity: 0.3;
+}
+.MB5:hover .txMB5 {
+  opacity: 1;
+}
+.txMB5 > b {
+  font: 30px/12px IM Fell English SC;
+  color: #c3aa3e;
+  text-shadow: 1px 1px 2px #000;
+  float: left;
+  margin: 0 5px 20px 0;
+}
+.txMB5 > a {
+  font-size: 11px;
+  color: #fff;
+  letter-spacing: 1px;
+  line-height: 15px;
+}
+.txMB5 > a:hover {
+  font-size: 13px;
+}
+.miMB5 {
+  display: block;
+  text-align: right;
+  color: #c3aa3e !important;
+  text-shadow: 1px 1px 2px #000;
+  font: 15px IM Fell English SC;
+  margin: 0 -10px -58px;
+  transition: 0.5s;
+  letter-spacing: 5px;
+  padding-top: 40px;
+}
+.miMB5:hover {
+  letter-spacing: 7px;
+}
+.MB5 div::-webkit-scrollbar {
+ width: 5px !important;
+ height: 5px !important;
+ background: #FFF6 !important;
+}
+.MB5 div::-webkit-scrollbar-thumb {
+ background: #FFF6 !important;
+}
